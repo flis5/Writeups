@@ -2,8 +2,8 @@ Here we have yet another RSA problem, but the difference from the challenge "Wha
 
 [Factordb](http://factordb.com) (non encrypted website) is such a database, and if we search for our N we will find that it indeed does have a recorded factorization.
 
-![[Factordb.png]]
+![](Factordb.png)
 
 Plugging the P and Q into [dcode](https://dcode.fr), it will calculate the private key d and subsequently decrypt our cipher.
-![[RSA_IF.png]]
+![](RSA_IF.png)
 We could alternatively have skipped the factordb part, as dcode actually uses that database for its calculator. There was also a python script included that was intended to be modified, but I found it much easier to just plug the numbers into dcode.
