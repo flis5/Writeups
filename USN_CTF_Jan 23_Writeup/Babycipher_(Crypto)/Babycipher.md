@@ -3,4 +3,5 @@ The description of "Time to get warmed up with some good old ciphering!" rings a
 ![](Cipher_baby.png)
 
 After a quick look at the results, we can see that the only readable result is the one with a 7 left shift, or correspondingly 19 right shift:
+
 ![](Flag_baby.png)
